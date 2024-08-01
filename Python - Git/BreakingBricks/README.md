@@ -21,6 +21,29 @@ Ensure you have Python and Pygame installed on your system. If not, you can inst
 ```bash
 pip install python
 pip install pygame
+```
 
 ## To play the game, clone the repository, navigate to the directory containing BreakBricks.py, and run:
+```
 python BreakBricks.py
+```
+
+## How to Play
+
+- **Start the Game**: Run the `BreakBricks.py` script.
+- **Game Controls**:
+- Use the left and right arrow keys to move the paddle.
+- Launch the ball by pressing the space bar.
+
+## Contribution
+
+Contributions to the game are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request with your changes. Ensure you test the changes locally before making a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- Thanks to the Python and Pygame communities for providing extensive documentation and examples that aid in game development.
+- Inspired by classic arcade games and the creativity of the open-source community.
