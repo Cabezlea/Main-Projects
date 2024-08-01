@@ -1,52 +1,47 @@
-# Main Projects Portfolio
+# Flappy Bird Clone in React
 
-Welcome to my Main Projects Portfolio, a curated collection of both academic and personal projects that showcase my diverse programming skills and computer science knowledge. This repository features a variety of applications and games, each demonstrating unique problem-solving techniques and the use of different programming languages and frameworks.
+![image](https://github.com/rickypcyt/flappybird/assets/105986682/10f38130-fe62-41f8-9167-5a87843d80b7)
 
-## Featured Projects
+This project is a simple clone of the popular game Flappy Bird, implemented using React. It was created for educational purposes to understand the fundamentals behind building a game like Flappy Bird using React.
 
-### Mercadona - Financial Data Processing Tool
-- **Technologies**: Python
-- **Description**: A comprehensive backend solution designed to handle and analyze financial transactions and data processing for enhanced operational efficiency at Mercadona.
+## How to Play
+- To start the game, simply click or tap anywhere on the screen.
+- Control the bird by clicking or tapping to flap its wings, helping it avoid the pipes.
+- Each successful pass through a pair of pipes earns you one point.
+- Colliding with the ground or a pipe ends the game.
 
-### Snake Game - Java
-- **Technologies**: Java
-- **Description**: A classic snake game implemented in Java showcasing object-oriented programming principles and event-driven programming.
+## Technologies Used
+- React: A JavaScript library for building user interfaces.
+- HTML5 Canvas: Used for rendering the game graphics and handling game logic.
+- CSS: Styling the game components.
 
-### Flappy Bird - React.js
-- **Technologies**: React.js, HTML5 Canvas
-- **Description**: An implementation of the popular Flappy Bird game using modern web technologies, demonstrating proficiency in React.js and real-time rendering techniques.
+## Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/Cabezlea/flappy-bird-react.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd flappy-bird-react
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+   
+## How to Run
+1. Start the development server:
+   ```
+   npm start
+   ```
+2. Open your browser and go to `http://localhost:3000` to play the game.
 
-### GPA Calculator - Java
-- **Technologies**: Java
-- **Description**: A simple yet functional graphical GPA calculator that allows students to estimate their academic performance.
 
-### Tic Tac Toe - C++
-- **Technologies**: C++
-- **Description**: A console-based Tic Tac Toe game written in C++, illustrating basic AI implementation and game state management.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Database Management - SQL
-- **Technologies**: SQL
-- **Description**: A SQL project that involves creating and managing a relational database for educational purposes, showcasing database design and query optimization.
-
-### Breaking Bricks Game - Python
-- **Technologies**: Python, Pygame
-- **Description**: A fun and interactive Breaking Bricks game developed using Python's Pygame library, focusing on collision detection, game physics, and user input handling.
-
-## Getting Started
-
-These instructions will get you a copy of the projects up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-- Install Python
-- Install Java
-- Install Node.js
-- Install C++ development environment
-- Setup SQL database server
-
-### Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Cabezlea/Main-Projects.git
+## Acknowledgements
+- Special thanks to Dong Nguyen for creating the original Flappy Bird game.
+- Thanks to React and its community for providing valuable resources and documentation.
+- Inspiration and guidance from various online tutorials and resources on game development with React.
+- Thanks to my friend @Rickypcyt who went through the process of building this project with me
