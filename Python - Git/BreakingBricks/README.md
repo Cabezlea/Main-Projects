@@ -22,5 +22,5 @@ Ensure you have Python and Pygame installed on your system. If not, you can inst
 pip install python
 pip install pygame
 
-To play the game, clone the repository, navigate to the directory containing BreakBricks.py, and run:
+## To play the game, clone the repository, navigate to the directory containing BreakBricks.py, and run:
 python BreakBricks.py
