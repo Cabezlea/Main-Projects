@@ -14,9 +14,8 @@ This project is a classic Snake game implemented in Java. It was developed to pr
 ## File Structure
 
 - **Main.java**: The main class that sets up the game window and manages the game loop.
-- **Board.java**: Handles the game board, including rendering and game logic.
-- **Snake.java**: Contains the logic for the snake's movement and growth.
-- **Food.java**: Manages the placement and properties of the food items.
+- **GamePanel.java**: Handles the game board, including rendering and game logic.
+- **GameFrame.java**: Manages the placement and properties of the food items.
 
 ## Contribution
 
