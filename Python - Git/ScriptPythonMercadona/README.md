@@ -1,30 +1,62 @@
-Automated Invoice Analysis Tool
+# Mercadona Invoice Analyzer
 
-*Description
--This Python-based Automated Invoice Analysis Tool is designed to streamline the processing and analysis of financial data extracted from invoice documents. It utilizes advanced regular expressions and sophisticated data structures to parse invoice content, accurately categorize transactions, and generate comprehensive financial reports. This tool aids businesses in enhancing their financial oversight and strategic budget planning by automating data entry and report generation, reducing manual errors, and saving time.
--The Project is almsot done, I just need to do some minor changes to get the right total and make sure it takes the products' names
+## Overview
 
-*Key Features
--Data Parsing: Automatically extracts relevant details such as item descriptions, quantities, and prices from structured text files.
--Transaction Categorization: Uses complex regex algorithms to accurately categorize and store transaction data, enabling precise financial tracking.
--Report Generation: Produces detailed financial reports that summarize monthly and yearly expenditures, assisting in financial review and budget management.
+This Python project is designed to analyze invoices by extracting information from PDF files, emails, and text files. It processes the data to calculate the total amount in euros.
 
-*How to Use
--Setup and Installation
--Clone the repository to your local machine.
--Ensure Python 3.x is installed on your system.
--Install necessary dependencies:
-pip install -r requirements.txt
+## Features
 
-*Configuration
--Place your invoice text files in the designated input directory (PDF to TXT).
--Adjust any specific configurations (if needed) in the script to match your invoice format.
+- **PDF to Text Conversion**: Utilizes `Pdf2Txt.py` to convert PDF files to text format for easy analysis.
+- **Email Parsing**: Extracts relevant invoice data from emails using `ExtractMails.py`.
+- **Text Analysis**: Analyzes text files containing invoice information with `AnalyzeTxtFINAL.py`.
+- **Total Calculation**: Calculates the total amount in euros based on the extracted data.
 
-*Running the Tool
--Execute the script from your command line:
-python automate_invoices.py
--The tool processes all invoices in the input directory, categorizing data and generating reports in the output directory (OutputTxtsV2).
+## Getting Started
 
-*Viewing Reports
--Navigate to the output directory to view the generated financial reports.
--Reports are organized by month and year for easy access and review.
+1. **Clone the Repository**: Clone this repository to your local machine using:
+   ```
+   git clone <repository_url>
+   ```
+
+2. **Install Dependencies**: Ensure you have Python installed on your system. Install the required dependencies by running:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **Usage**: 
+   - Place your PDF files in the `Descargas` directory.
+   - Run the relevant Python scripts to process the invoices and generate the total amount in euros.
+
+## How does it work
+
+This is the Input:
+
+![image](https://github.com/rickypcyt/ScriptPythonMercadona/assets/105986682/2e1550cb-b951-4cef-b7ab-76a758920e9f)
+
+The script 'Pdf2Txt.py' converts the pdf to text so Python can analyze it and manipulate it.
+
+Output:
+
+![image](https://github.com/rickypcyt/ScriptPythonMercadona/assets/105986682/b4193772-5a0e-4c57-a9b3-ae41ad36774d)
+
+
+## File Structure
+
+- **DescargasMail**: Directory where PDFs files are located.
+- **OutputTxtsV2**: Output directory for converted text files.
+- **AnalyzeTxtFINAL.py**: Python script to analyze text files and calculate totals.
+- **ExtractMails.py**: Python script to extract invoice information from emails.
+- **Pdf2Txt.py**: Python script to convert PDF files to text format.
+
+## Notes
+
+- Some items needed manual modification so the total woks well.
+- Review `OutputTxtsV2` for insights into the analyzed data and file descriptions.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to adjust the content and add more details as needed!
